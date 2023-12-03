@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+
+}
+.create_form button{
+  padding: 10px;
+  color: black;
+  cursor: pointer ;
+}
+.taskdes{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  /*justify-content: space-between;*/
+  color: black;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 10px;
+}
+label {
+ /* display: flex; /* Make the label and checkbox appear in a row */
+  align-items: center; /* Vertically align the content */
+  border-bottom: 1px solid grey; /* Add a bottom border to the text */
+  padding-bottom: 5px; /* Add some spacing for the border */
+  width: 100%;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;/* Add some spacing between the checkbox and text */
+}
+/*.checkbox{
+  display: flex;
+  align-items: center;
+}
+.checkbox.icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+.content{
+  border-bottom: 1px solid black;
+  width: 300px;
+}
+
+.task div .icon{
+  cursor: pointer;
+}*/
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
